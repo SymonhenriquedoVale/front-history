@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  max-width: 1000px;
+  height: 300vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body p {
+  color: hsl(201, 11%, 66%);
+}
+
+.container-inic {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-inic img {
+  margin: 20px 500px;
+}
+
+.container-inic a {
+  padding: 25px;
+}
+
+.par-inicio {
+  line-height: 0.5;
+}
+
+.keep {
+  max-width: 980px;
+  margin: 0 30px 150px 120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.monitor img {
+  margin-left: -440px;
+  max-width: 600px;
+}
+
+.monitor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 200px;
+}
+
+.monitor .mini-list p {
+  line-height: 2;
+  margin-top: -2px;
+  justify-content: center;
+  width: 410px;
+}
+
+.monitor span {
+  line-height: 2.7;
+}
+
+.titulo-any {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.super {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.sub-super {
+  margin-top: -20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.anuncio {
+  width: 910px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.anuncio img {
+  padding-bottom: 50px;
+  margin-left: 0px;
+}
+
+.anuncio p {
+  line-height: 2;
+}
+
+.marcas {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  padding-bottom: 70px;
+}
+
+.ultimo-cont {
+  text-align: center;
+  padding: 80px;
+  line-height: 2;
+}
+
+.ultimo-cont a {
+  padding: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.ultimo-cont p {
+  width: 650px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.logo-sec {
+  max-width: 50px;
+  margin-left: 500px;
+}
+
+footer {
+  background: hsl(207, 31%, 94%);
+  width: 1860px;
+  height: 160px;
+  margin-left: -430px;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.list-conta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.ios {
+  color: white;
+  background: hsl(171, 66%, 44%);
+  text-decoration: none;
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+}
+
+.mac {
+  color: white;
+  background: hsl(233, 100%, 69%);
+  text-decoration: none;
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+}
